@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,7 +17,15 @@ a {
 
 * {
   box-sizing: border-box;
+  outline: none;
 }
+
+textarea{
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 4px;
+}
+
 
 @media (prefers-color-scheme: dark) {
   html {
